@@ -1,0 +1,11 @@
+{
+  "optimizer": "CanonicalESOptimizer",
+  "settings": {
+    "learning_rate": 1,
+    "sigma": 0.01,
+    "c_sigma_factor": 1,
+    "mu": 1
+  },
+  "network": "Nature",
+  "nonlin_name": "elu"
+}
