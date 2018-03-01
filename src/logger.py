@@ -23,7 +23,7 @@ class Logger(object):
                 f.write(stat_string)
 
     def save_parameters(self, parameters, iteration):
-        with open(os.path.join(self.log_dir, "parameters_%d.txt" % iteration), 'wb') as f:
+        with open(os.path.join(self.log_dir, "parameters_%d" % iteration), 'wb') as f:
             pickle.dump({"parameters": parameters}, f)
 
     def save_vb(self, vb):

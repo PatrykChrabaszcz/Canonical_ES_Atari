@@ -7,7 +7,7 @@ export LC_ALL=de_DE.utf-8
 export LANG=de_DE.utf-8
 
 cd $EVOLUTION
-cd AtariES
+cd Canonical_ES_Atari
 
 echo $EPISODES_PER_CPU
 echo $GAME
